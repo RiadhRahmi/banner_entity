@@ -1,0 +1,27 @@
+# Banner routing definition
+banner.settings_tab:
+  route_name: banner.settings
+  title: 'Settings'
+  base_route: banner.settings
+
+entity.banner.canonical:
+  route_name: entity.banner.canonical
+  base_route: entity.banner.canonical
+  title: 'View'
+
+entity.banner.edit_form:
+  route_name: entity.banner.edit_form
+  base_route: entity.banner.canonical
+  title: 'Edit'
+
+entity.banner.version_history:
+  route_name: entity.banner.version_history
+  base_route: entity.banner.canonical
+  title: 'Revisions'
+
+entity.banner.delete_form:
+  route_name:  entity.banner.delete_form
+  base_route:  entity.banner.canonical
+  title: Delete
+  weight: 10
+

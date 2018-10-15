@@ -1,0 +1,14 @@
+
+# Banner menu items definition
+entity.banner.collection:
+  title: 'Banner list'
+  route_name: entity.banner.collection
+  description: 'List Banner entities'
+  parent: system.admin_structure
+  weight: 100
+
+banner.admin.structure.settings:
+  title: 'Banner settings'
+  description: 'Configure Banner entities'
+  route_name: banner.settings
+  parent: system.admin_structure

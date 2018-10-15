@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Contains banner_entity.module.
+ */
+
+use Drupal\banner_entity\Entity\Banner;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function banner_entity_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        // Main module help for the banner_entity module.
+        case 'help.page.banner_entity':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('Banner Entity Module') . '</p>';
+            return $output;
+
+        default:
+    }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function banner_entity_theme()
+{
+    return [
+        'banner_entity' => [
+            'render element' => 'children',
+        ],
+        'banner_block' => [
+            'variables' => [
+                'url_image' => NULL,
+                'alt_image' => NULL,
+            ]
+        ]
+    ];
+}
+

@@ -1,0 +1,5 @@
+entity.banner.add_form:
+  route_name: entity.banner.add_form
+  title: 'Add Banner'
+  appears_on:
+    - entity.banner.collection

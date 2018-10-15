@@ -1,0 +1,14 @@
+{
+  "name": "drupal/banner_entity",
+  "type": "drupal-module",
+  "description": "Banner Entity Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/banner_entity",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/banner_entity",
+    "source": "http://cgit.drupalcode.org/banner_entity"
+  },
+  "require": { }
+}

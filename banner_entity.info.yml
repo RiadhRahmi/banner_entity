@@ -1,0 +1,5 @@
+name: 'Banner Entity'
+type: module
+description: 'Banner Entity Module'
+core: 8.x
+package: 'Custom'
