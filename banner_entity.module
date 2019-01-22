@@ -38,8 +38,11 @@ function banner_entity_theme()
             'variables' => [
                 'url_image' => NULL,
                 'alt_image' => NULL,
+                'block_breadcrumbs' => NULL,
+                'block_page_title' => NULL,
             ]
         ]
     ];
 }
+
 
